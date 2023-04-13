@@ -1,0 +1,85 @@
+@keyframes ball {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+@keyframes ball {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 100px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: ball;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+@keyframes ball {
+  0% {
+    top: 0px;
+    background: red;
+    width: 100px;
+  }
+  100% {
+    top: 200px;
+    background: yellowgreen;
+    width: 300px;
+  }
+}
+@keyframes ball {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: red;
+  }
+  25% {
+    top: 0px;
+    left: 100px;
+    background: blue;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+    background: yellow;
+  }
+  75% {
+    top: 100px;
+    left: 0px;
+    background: greenyellow;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: red;
+  }
+}
+@keyframes ball {
+  from {
+    top: 0px;
+  }
+  50% {
+    top: 100px !important;
+  }
+  /* ignored*/
+  to {
+    top: 200px;
+  }
+}
